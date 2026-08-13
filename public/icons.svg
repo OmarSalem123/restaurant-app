@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- ===== UI icons (24x24, stroke = currentColor) ===== -->
+  <symbol id="logo-mark" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M8.1 13.34l2.83-2.83L3.91 3.5c-1.56 1.56-1.56 4.09 0 5.66l4.19 4.18zm6.78-1.81c1.53.71 3.68.21 5.27-1.38 1.91-1.91 2.28-4.65.81-6.12-1.46-1.46-4.2-1.1-6.12.81-1.59 1.59-2.09 3.74-1.38 5.27L3.7 19.87l1.41 1.41L12 14.41l6.88 6.88 1.41-1.41L13.41 13l1.47-1.47z"/>
+  </symbol>
+  <symbol id="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M3 6h18M3 12h18M3 18h18"/>
+  </symbol>
+  <symbol id="close-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M6 6l12 12M18 6L6 18"/>
+  </symbol>
+  <symbol id="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="9.5" cy="21" r="1.1" fill="currentColor" stroke="none"/>
+    <circle cx="18.5" cy="21" r="1.1" fill="currentColor" stroke="none"/>
+    <path d="M1.5 2h3l2.4 12.6a2 2 0 0 0 2 1.65h9.4a2 2 0 0 0 2-1.6L22 6.5H5.2"/>
+  </symbol>
+  <symbol id="plus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M12 5v14M5 12h14"/>
+  </symbol>
+  <symbol id="minus-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+    <path d="M5 12h14"/>
+  </symbol>
+  <symbol id="trash-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 7h16M9 7V4h6v3M6 7l1 13a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-13M10 11v6M14 11v6"/>
+  </symbol>
+  <symbol id="chevron-down-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 9l6 6 6-6"/>
+  </symbol>
+  <symbol id="check-circle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="M8 12.5l2.5 2.5L16 9.5"/>
+  </symbol>
+  <symbol id="pin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 21s7-7.58 7-12a7 7 0 1 0-14 0c0 4.42 7 12 7 12z"/>
+    <circle cx="12" cy="9" r="2.5"/>
+  </symbol>
+  <symbol id="phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M6.6 10.8a15.9 15.9 0 0 0 6.6 6.6l2.2-2.2a1.2 1.2 0 0 1 1.2-.3c1.3.43 2.7.66 4.1.66.66 0 1.2.54 1.2 1.2V20.8c0 .66-.54 1.2-1.2 1.2C10.8 22 2 13.2 2 2.2 2 1.54 2.54 1 3.2 1H6.6c.66 0 1.2.54 1.2 1.2 0 1.4.23 2.8.66 4.1.13.4.03.85-.3 1.2z"/>
+  </symbol>
+  <symbol id="clock-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"/>
+    <path d="M12 7v5l3.5 2"/>
+  </symbol>
+  <symbol id="mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+    <rect x="3" y="5" width="18" height="14" rx="2"/>
+    <path d="M3.5 6.5L12 13l8.5-6.5"/>
+  </symbol>
+  <symbol id="instagram-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+    <rect x="3" y="3" width="18" height="18" rx="5"/>
+    <circle cx="12" cy="12" r="4.2"/>
+    <circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/>
+  </symbol>
+  <symbol id="facebook-icon" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M14 21v-8h2.7l.4-3.4H14V7.4c0-1 .3-1.6 1.7-1.6H17V2.8C16.7 2.8 15.7 2.7 14.6 2.7c-2.3 0-3.9 1.4-3.9 4v2.9H8v3.4h2.7V21z"/>
+  </symbol>
+  <symbol id="flame-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+    <path d="M12 2s5 5.5 5 10a5 5 0 0 1-10 0c0-1.3.5-2.2 1.2-3.2.3.9 1 1.3 1.6 1 .5-.3.7-.9.5-1.6C9.7 6.8 12 2 12 2z"/>
+  </symbol>
+  <symbol id="leaf-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 20C4 10 10 4 20 4c0 10-6 16-16 16z"/>
+    <path d="M4 20L14 10"/>
+  </symbol>
+  <symbol id="arrow-left-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 12H5M11 6l-6 6 6 6"/>
+  </symbol>
+  <symbol id="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="11" cy="11" r="7"/>
+    <path d="M21 21l-4.3-4.3"/>
+  </symbol>
+
+  <!-- ===== Dish illustrations (64x64, flat) ===== -->
+  <symbol id="dish-bruschetta" viewBox="0 0 64 64">
+    <rect x="9" y="30" width="46" height="18" rx="5" fill="#e3a857"/>
+    <rect x="9" y="30" width="46" height="7" rx="3.5" fill="#c97b3d"/>
+    <rect x="17" y="26" width="7" height="7" rx="1.5" fill="#d9472b" transform="rotate(-12 20 29)"/>
+    <rect x="27" y="21" width="7" height="7" rx="1.5" fill="#d9472b" transform="rotate(10 30 25)"/>
+    <rect x="37" y="25" width="7" height="7" rx="1.5" fill="#d9472b" transform="rotate(-6 40 28)"/>
+    <rect x="22" y="17" width="8" height="4" rx="2" fill="#3f7a4c" transform="rotate(-20 26 19)"/>
+    <rect x="34" y="15" width="8" height="4" rx="2" fill="#3f7a4c" transform="rotate(15 38 17)"/>
+  </symbol>
+
+  <symbol id="dish-salad" viewBox="0 0 64 64">
+    <path d="M8 30a24 18 0 0 0 48 0z" fill="#ffffff" stroke="#e8ddd0" stroke-width="2"/>
+    <circle cx="22" cy="24" r="5" fill="#5a8f4f"/>
+    <circle cx="34" cy="19" r="6" fill="#5a8f4f"/>
+    <circle cx="44" cy="25" r="4.5" fill="#3f7a4c"/>
+    <circle cx="27" cy="27" r="3" fill="#d9472b"/>
+    <circle cx="40" cy="28" r="3" fill="#d9472b"/>
+    <circle cx="32" cy="16" r="3" fill="#e08a2b"/>
+    <ellipse cx="32" cy="30" rx="24" ry="7" fill="none" stroke="#c9a227" stroke-width="2.5"/>
+  </symbol>
+
+  <symbol id="dish-pizza" viewBox="0 0 64 64">
+    <rect x="11" y="51" width="42" height="8" rx="4" fill="#e3a857"/>
+    <path d="M32 8 13 53h38z" fill="#f4c95d"/>
+    <circle cx="26" cy="38" r="3.2" fill="#c1372a"/>
+    <circle cx="37" cy="30" r="3" fill="#c1372a"/>
+    <circle cx="30" cy="46" r="3" fill="#c1372a"/>
+    <circle cx="40" cy="44" r="2.6" fill="#c1372a"/>
+    <circle cx="33" cy="24" r="2" fill="#3f7a4c"/>
+    <circle cx="24" cy="46" r="1.8" fill="#3f7a4c"/>
+  </symbol>
+
+  <symbol id="dish-burger" viewBox="0 0 64 64">
+    <path d="M14 24c0-9 8-15 18-15s18 6 18 15z" fill="#e3a857"/>
+    <ellipse cx="24" cy="14" rx="1.6" ry="1" fill="#fbf0d9" transform="rotate(-20 24 14)"/>
+    <ellipse cx="32" cy="11" rx="1.6" ry="1" fill="#fbf0d9"/>
+    <ellipse cx="40" cy="14" rx="1.6" ry="1" fill="#fbf0d9" transform="rotate(20 40 14)"/>
+    <path d="M12 24h40l-3 7q-17 4-34 0z" fill="#5a8f4f"/>
+    <rect x="12" y="31" width="40" height="8" rx="4" fill="#6b4226"/>
+    <path d="M10 39h44l-4 6H14z" fill="#f0c14b"/>
+    <path d="M12 45h40v3a7 7 0 0 1-7 7H19a7 7 0 0 1-7-7z" fill="#e3a857"/>
+  </symbol>
+
+  <symbol id="dish-pasta" viewBox="0 0 64 64">
+    <path d="M14 42c0-16 10-24 18-24s18 8 18 24" fill="none" stroke="#f0c14b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 44c0-14 8-20 14-20s14 6 14 20" fill="none" stroke="#f0c14b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M22 45c0-11 6-16 10-16s10 5 10 16" fill="none" stroke="#e3a857" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="32" cy="41" r="6" fill="#d9472b"/>
+    <circle cx="30" cy="39" r="1.6" fill="#ff8a70"/>
+    <ellipse cx="41" cy="34" rx="4" ry="2.2" fill="#3f7a4c" transform="rotate(-30 41 34)"/>
+  </symbol>
+
+  <symbol id="dish-steak" viewBox="0 0 64 64">
+    <path d="M12 30c2-8 10-12 20-11s21 5 20 15-12 14-22 13S10 38 12 30z" fill="#8a5a3b"/>
+    <line x1="18" y1="22" x2="30" y2="44" stroke="#4a2c18" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="26" y1="19" x2="38" y2="42" stroke="#4a2c18" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="34" y1="19" x2="45" y2="40" stroke="#4a2c18" stroke-width="2.4" stroke-linecap="round"/>
+    <ellipse cx="46" cy="20" rx="4" ry="2" fill="#5a8f4f" transform="rotate(30 46 20)"/>
+  </symbol>
+
+  <symbol id="dish-cupcake" viewBox="0 0 64 64">
+    <path d="M18 54 46 54 41 36 23 36z" fill="#d9622b"/>
+    <path d="M20 54 44 54 M22 47 42 47 M24 40 40 40" stroke="#b84f1f" stroke-width="1" opacity="0.5"/>
+    <circle cx="24" cy="33" r="8" fill="#f7e9d7"/>
+    <circle cx="32" cy="27" r="9.5" fill="#f7e9d7"/>
+    <circle cx="40" cy="33" r="8" fill="#f7e9d7"/>
+    <circle cx="32" cy="20" r="3.4" fill="#b8203a"/>
+    <path d="M32 17c0-2 1-4 3-5" stroke="#3f7a4c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  </symbol>
+
+  <symbol id="dish-icecream" viewBox="0 0 64 64">
+    <path d="M24 34h16l-6 24a2 2 0 0 1-4 0z" fill="#e3a857"/>
+    <path d="M25 38l14 14M27 34l12 20M39 38l-14 14" stroke="#c97b3d" stroke-width="1" opacity="0.6"/>
+    <circle cx="32" cy="30" r="11" fill="#f4c95d"/>
+    <circle cx="32" cy="18" r="9.5" fill="#e58aa0"/>
+    <ellipse cx="28" cy="15" rx="2.4" ry="1.4" fill="#ffffff" opacity="0.7" transform="rotate(-30 28 15)"/>
+  </symbol>
+
+  <symbol id="dish-mojito" viewBox="0 0 64 64">
+    <rect x="36" y="6" width="3.4" height="30" rx="1.5" fill="#d9472b" transform="rotate(18 37 20)"/>
+    <path d="M22 16h20l-4 38a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2z" fill="#e7f4ee" stroke="#7fa8b8" stroke-width="2"/>
+    <path d="M24.2 26h15.6l-2.6 26.5a2 2 0 0 1-2 1.8h-6.4a2 2 0 0 1-2-1.8z" fill="#bfe3d0"/>
+    <path d="M18 30a6 6 0 0 1 6-6v6z" fill="#a3c94a"/>
+    <ellipse cx="27" cy="18" rx="3.5" ry="2" fill="#3f7a4c" transform="rotate(-20 27 18)"/>
+    <ellipse cx="34" cy="16" rx="3.5" ry="2" fill="#5a8f4f" transform="rotate(15 34 16)"/>
+  </symbol>
+
+  <symbol id="dish-espresso" viewBox="0 0 64 64">
+    <path d="M26 20c-2-3 2-4 0-7M34 20c-2-3 2-4 0-7" fill="none" stroke="#c9beae" stroke-width="1.6" stroke-linecap="round" opacity="0.8"/>
+    <ellipse cx="32" cy="50" rx="20" ry="4.5" fill="#f0ece2" stroke="#d8cfc2" stroke-width="1.5"/>
+    <path d="M44 32c6-1 8 8 1 10" fill="none" stroke="#d8cfc2" stroke-width="3" stroke-linecap="round"/>
+    <path d="M18 28h26l-2.5 18a5 5 0 0 1-5 4.4h-9a5 5 0 0 1-5-4.4z" fill="#ffffff" stroke="#d8cfc2" stroke-width="1.5"/>
+    <ellipse cx="31" cy="28.5" rx="12.5" ry="3.6" fill="#5b3a2a"/>
+  </symbol>
+
+</svg>
