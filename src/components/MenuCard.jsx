@@ -1,17 +1,17 @@
 import DishIcon from "./icons/DishIcon";
 import Icon from "./icons/Icon";
 
-const MenuCard = ({ item }) => {
+const MenuCard = ({ i, addToCart, qty }) => {
   return (
     <div className="menu-card">
       <div className="menu-card_image">
-        <DishIcon id={item.icon} />
-        {item.tags.includes("popular") && (
+        <DishIcon id={i.icon} />
+        {i.tags.includes("popular") && (
           <span className="badge badge--popular">
             <Icon id="flame-icon" /> Popular
           </span>
         )}
-        {item.tags.includes("veg") && (
+        {i.tags.includes("veg") && (
           <span className="badge badge--veg">
             <Icon id="leaf-icon" /> Veg
           </span>
@@ -20,16 +20,32 @@ const MenuCard = ({ item }) => {
 
       <div className="menu-card_body">
         <div className="menu-card_heading">
-          <h3>{item.name}</h3>
-          <span className="menu-card_price">{item.price} SAR</span>
+          <h3>{i.name}</h3>
+          <span className="menu-card_price">{i.price} SAR</span>
         </div>
-        <p>{item.description}</p>
+        <p>{i.description}</p>
       </div>
 
       <div className="menu-card_footer">
-        <button className="btn btn--add" type="button">
-          <Icon id="plus-icon" /> Add to Cart
-        </button>
+        {qty > 0 ? (
+          <div className="stepper">
+            <button>
+              <Icon id={"minus-icon"} />
+            </button>
+            <span>{qty}</span>
+            <button type="button" onClick={() => addToCart(i.id)}>
+              <Icon id={"plus-icon"} />
+            </button>
+          </div>
+        ) : (
+          <button
+            className="btn btn--add"
+            type="button"
+            onClick={() => addToCart(i.id)}
+          >
+            <Icon id="plus-icon" /> Add to Cart
+          </button>
+        )}
       </div>
     </div>
   );

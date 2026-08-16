@@ -3,7 +3,7 @@ import Icon from "../components/icons/Icon";
 const navLinks = [
   { href: "#hero", label: "Home" },
   { href: "#menu", label: "Menu" },
-  { href: "#about", label: "About" },
+  { href: "#about", label: "About Us" },
 ];
 
 const Header = () => {

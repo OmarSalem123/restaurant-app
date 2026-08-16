@@ -1,7 +1,7 @@
 import MenuCard from "./MenuCard";
 import { menuItems } from "../data/menuItems";
 
-function Menu() {
+function Menu({ addToCart, cart }) {
   return (
     <section id="items" className="Menu-section">
       <div className="section-heading">
@@ -9,8 +9,8 @@ function Menu() {
         <h2>Pick today's favourites</h2>
       </div>
       <div className="menu-grid">
-        {menuItems.map((item) => (
-          <MenuCard key={item.id} item={item} />
+        {menuItems.map((i) => (
+          <MenuCard key={i.id} i={i} addToCart={addToCart} qty={cart[i.id]} />
         ))}
       </div>
     </section>
