@@ -6,7 +6,7 @@ const navLinks = [
   { href: "#about", label: "About Us" },
 ];
 
-const Header = () => {
+const Header = ({ cartCount, setViewCart }) => {
   return (
     <header className="site-header">
       <div className="site-header_inner">
@@ -21,9 +21,13 @@ const Header = () => {
             </a>
           ))}
         </nav>
-        <button className="icon-btn cart-btn" type="button">
+        <button
+          className="icon-btn cart-btn"
+          type="button"
+          onClick={() => setViewCart(true)}
+        >
           <Icon id={"cart-icon"} />
-          <span className="cart-btn_badge">3</span>
+          {cartCount > 0 && <span className="cart-btn_badge">{cartCount}</span>}
         </button>
       </div>
     </header>

@@ -1,7 +1,7 @@
 import DishIcon from "./icons/DishIcon";
 import Icon from "./icons/Icon";
 
-const MenuCard = ({ i, addToCart, qty }) => {
+const MenuCard = ({ i, addToCart, qty, decrementItem }) => {
   return (
     <div className="menu-card">
       <div className="menu-card_image">
@@ -29,7 +29,7 @@ const MenuCard = ({ i, addToCart, qty }) => {
       <div className="menu-card_footer">
         {qty > 0 ? (
           <div className="stepper">
-            <button>
+            <button type="button" onClick={() => decrementItem(i.id)}>
               <Icon id={"minus-icon"} />
             </button>
             <span>{qty}</span>
