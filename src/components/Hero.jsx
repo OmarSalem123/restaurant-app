@@ -15,7 +15,7 @@ function Hero() {
             View Menu
           </a>
           <a href="#about" className="btn btn--ghost">
-            Our Story
+            About us
           </a>
         </div>
       </div>
