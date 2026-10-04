@@ -1,7 +1,9 @@
-import MenuCard from "./MenuCard";
 import { menuItems } from "../data/menuItems";
+import MenuCard from "./MenuCard";
 
-function Menu({ addToCart, cart, decrementItem }) {
+
+function Menu({ addToCart, cart, decrementItem, products, isLoading }) {
+
   return (
     <section id="items" className="menu-section">
       <div className="section-heading">
@@ -9,14 +11,15 @@ function Menu({ addToCart, cart, decrementItem }) {
         <h2>Pick today's favourites</h2>
       </div>
       <div className="menu-grid">
-        {menuItems.map((i) => (
+        {isLoading ? (<div>Loading...</div>) : (
+        products?.map((i) => (
           <MenuCard
             key={i.id}
             i={i}
             addToCart={addToCart}
             decrementItem={decrementItem}
             qty={cart[i.id]}
-          />
+          />)
         ))}
       </div>
     </section>

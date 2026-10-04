@@ -2,16 +2,23 @@ import { useState } from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Menu from "./components/Menu";
-import { menuItems } from "./data/menuItems";
 import CartDrawer from "./components/CartDrawer";
 import CheckOutPage from "./components/CheckOutPage";
+import { useGetProductsQuery } from "./store/api";
+import { menuItems } from "./data/menuItems";
 
 function App() {
   const [cart, setCart] = useState({});
   const [viewCart, setViewCart] = useState(false);
   const [view, setView] = useState("menu");
+  const { data: products, isLoading } = useGetProductsQuery();
 
-  console.log("view", view);
+  console.log("data", products);
+  console.log("menuItems", menuItems);
+
+  if(isLoading || !products) {
+    return <div>Loading...</div>
+  }
 
   function addToCart(id) {
     setCart((prev) => ({ ...prev, [id]: (prev[id] || 0) + 1 }));
@@ -41,7 +48,7 @@ function App() {
   }
 
   const cartItems = Object.entries(cart).map(([id, qty]) => ({
-    item: menuItems.find((item) => item.id === id),
+    item: products?.find((item) => item.id === Number(id)),
     qty,
   }));
 
@@ -69,6 +76,8 @@ function App() {
               addToCart={addToCart}
               decrementItem={decrementItem}
               cart={cart}
+              products={products}
+              isLoading={isLoading}
             />
           </>
         )}

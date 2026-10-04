@@ -6,12 +6,12 @@ const MenuCard = ({ i, addToCart, qty, decrementItem }) => {
     <div className="menu-card">
       <div className="menu-card_image">
         <DishIcon id={i.icon} />
-        {i.tags.includes("popular") && (
+        {i.tags && i.tags.includes("popular") && (
           <span className="badge badge--popular">
             <Icon id="flame-icon" /> Popular
           </span>
         )}
-        {i.tags.includes("veg") && (
+        {i.tags && i.tags.includes("veg") && (
           <span className="badge badge--veg">
             <Icon id="leaf-icon" /> Veg
           </span>

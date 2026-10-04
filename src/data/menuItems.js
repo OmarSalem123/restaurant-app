@@ -1,10 +1,3 @@
-export const categories = [
-  { id: "starters", label: "Starters", color: "#5a8f4f" },
-  { id: "mains", label: "Mains", color: "#d9622b" },
-  { id: "desserts", label: "Desserts", color: "#c9598f" },
-  { id: "drinks", label: "Drinks", color: "#3f7ea6" },
-];
-
 export const menuItems = [
   {
     id: "bruschetta",
